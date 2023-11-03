@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: darkslategray;
+    background-color: rgb(74, 78, 105);
     color: whitesmoke;
 }
 
@@ -16,13 +16,14 @@ a:visited {
 }
 
 a:hover a:active {
-    color: #eee;
+    color: rgb(154, 140, 152);
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    color: rgb(242, 233, 228)
 }
 
 caption {
@@ -35,7 +36,7 @@ th, td {
 }
 
 th {
-    background-color: #333;
+    background-color: rgb(34, 34, 59);
     color: white;
 }
 
@@ -51,7 +52,7 @@ thead tr {
 }
 
 form {
-    max-width: 500;
+    max-width: 2000px;
     margin: 1%;
     padding: 50px;
     background-color: #f0f0f0;
@@ -97,4 +98,49 @@ input[type="submit"] {
 input[type="file"] {
     width: 100%;
     margin-top: 5px;
+}
+
+.colors-page {
+    background-color: black;
+}
+
+.color-box1,
+.color-box2,
+.color-box3, 
+.color-box4 {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.color-box1 {
+    background-color: rgb(34, 34, 59);
+}
+
+.color-box2 {
+    background-color: rgb(74, 78, 105);
+}
+
+.color-box3 {
+    background-color: rgb(154, 140, 152);
+}
+
+.color-box4 {
+    background-color: rgb(242, 233, 228);
+}
+
+.color-palette {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.color-description {
+    text-align: center;
+}
+
+.box-model {
+    display: inline-block;
 }
