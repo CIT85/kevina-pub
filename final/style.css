@@ -1,9 +1,9 @@
 .header-title {
-  color: white; /* Set the text color for the header title */
+  color: #87CEEB; /* Set the text color for the header title */
 }
 
 .menu-title {
-  color: white; /* Set the text color for the menu title */
+  color: #87CEEB; /* Set the text color for the menu title */
 }
 
 /* Set the background color for the entire page */
@@ -30,7 +30,7 @@ nav ul li {
 /* Style for each link in the navigation */
 nav a {
   text-decoration: none; /* Remove underline from links */
-  color: white; /* Change link color to white */
+  color: #87CEEB; /* Change link color to white */
   font-weight: bold; /* Make link text bold */
 }
 
@@ -52,7 +52,7 @@ main {
 p {
   font-size: 18px;
   line-height: 1.5;
-  color: #FFF8F7;
+  color: #87CEEB;
 }
 
 a {
@@ -98,7 +98,8 @@ img {
 .color-box2,
 .color-box3,
 .color-box4,
-.color-box5 {
+.color-box5,
+.color-box6 {
   width: 200px;
   height: 200px;
   display: inline-block;
@@ -125,6 +126,10 @@ img {
 
 .color-box5 {
   background-color: #303C4A;
+}
+
+.color-box6 {
+  background-color: #87CEEB;
 }
 
 .color-palette {
