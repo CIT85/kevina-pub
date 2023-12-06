@@ -1,0 +1,175 @@
+.header-title {
+  color: white; /* Set the text color for the header title */
+}
+
+.menu-title {
+  color: white; /* Set the text color for the menu title */
+}
+
+/* Set the background color for the entire page */
+body {
+  background-color: #303C4A;
+}
+
+/* Navigation Styling */
+nav {
+  background-color: #211e1e;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+/* Style for each item in the navigation */
+nav ul li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Add space between each list item */
+}
+
+/* Style for each link in the navigation */
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Change link color to white */
+  font-weight: bold; /* Make link text bold */
+}
+
+/* Style for each link in the navigation when the mouse is hovering over it */
+nav a:hover {
+  color: #0066cc; /* Change link color to blue */
+}
+
+/* Styling for the main content area */
+main {
+  display: flex; /* Use flexbox to align items horizontally */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Create a grid with 3 columns */
+  gap: 20px; /* Add space between each grid item */
+  background-color: #303C4A; /* Set background color for the main content */
+  padding: 10px; /* Add space around the main content */
+}
+
+/* Styling for paragraphs */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #FFF8F7;
+}
+
+a {
+  color: #ffb7c5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #004080;
+}
+
+figure {
+  position: relative;
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+}
+
+figcaption {
+  text-align: right;
+  position: relative;
+}
+
+.figcaption-description {
+  color: #ffb7c5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 5px 0;
+}
+
+/* Styling for a section with a color palette */
+.colors-page {
+  background-color: rgb(74, 78, 105);
+  color: whitesmoke;
+}
+
+/* Styling for color boxes in the palette */
+.color-box1,
+.color-box2,
+.color-box3,
+.color-box4,
+.color-box5 {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+/* Individual color box styling */
+.color-box1 {
+  background-color: #ffb7c5;
+}
+
+.color-box2 {
+  background-color: #211e1e;
+}
+
+.color-box3 {
+  background-color: rgb(154, 140, 152);
+}
+
+.color-box4 {
+  background-color: rgb(242, 233, 228);
+}
+
+.color-box5 {
+  background-color: #303C4A;
+}
+
+.color-palette {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.color-description {
+  text-align: center;
+}
+
+/* Styling for the footer */
+footer {
+  background-color: #211e1e;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media Queries */
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  main {
+    grid-template-columns: 1fr; /* Single column layout for mobile devices */
+  }
+}
+
+/* iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Add specific styles for tablets */
+}
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Add specific styles for small screens and laptops */
+}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* Add specific styles for desktops and large screens */
+}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+  /* Add specific styles for extra large screens and TVs */
+}
