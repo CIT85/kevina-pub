@@ -155,10 +155,9 @@ footer {
 /* Media Queries */
 
 /* Mobile devices */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
   main {
     grid-template-columns: 1fr; /* Single column layout for mobile devices */
-    max-width: 100%;
   }
 }
 
