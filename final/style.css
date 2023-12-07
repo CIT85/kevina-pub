@@ -75,7 +75,7 @@ figcaption {
   text-align: right;
   position: relative;
   bottom: 0;
-  width: auto;
+  width: 100%;
 }
 
 .figcaption-description {
@@ -158,6 +158,7 @@ footer {
 @media screen and (max-width: 480px) {
   main {
     grid-template-columns: 1fr; /* Single column layout for mobile devices */
+    width: 100%;
   }
 }
 
