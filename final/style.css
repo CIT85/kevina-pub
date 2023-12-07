@@ -74,6 +74,8 @@ figure {
 figcaption {
   text-align: right;
   position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .figcaption-description {
